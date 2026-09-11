@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "minimal-mcp-ping": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "run",
+        "fastmcp",
+        "run",
+        "server.py:mcp"
+      ]
+    }
+  }
+}

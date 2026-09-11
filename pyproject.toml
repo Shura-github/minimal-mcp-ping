@@ -1,0 +1,9 @@
+[project]
+name = "minimal-mcp-ping"
+version = "0.1.0"
+description = "A minimal MCP server with a ping tool"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=2.0.0",
+]
